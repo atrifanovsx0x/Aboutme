@@ -1,0 +1,74 @@
+﻿body 
+{
+    margin:15px;
+    background-color:#7e997b; 
+    color:#050404; /*Maina Teksta krāsu*/
+    text-align:center;
+}
+a
+{
+    color:#503e21;
+    background-color:#b5bb8b;
+    padding:5px;
+    border-radius:5px;
+    font-size:25px;
+}
+a:hover
+{
+    color:#503e21;
+}
+h1
+{
+    background-color:#b5bb8b;
+    padding:5px;
+    border-radius:5px;
+    font-size:45px;
+}
+h2
+{
+    background-color:#b5bb8b;
+    padding:5px;
+    border-radius:5px;
+    font-size:25px;
+}
+p
+{
+    background-color:#b5bb8b;
+    margin:7.5px;
+    padding:5px;
+    border-radius:5px;
+    font-size:20px;
+    width:75%;
+}
+img
+{
+    max-width:45%;
+    border-radius:15px;
+    padding:5px;
+}
+iframe
+{
+    width:45%;
+    height:45vh;
+    border-radius:15px;
+    padding:5px;
+}
+li::marker
+{
+    color:#b5bb8b;
+    font-size:30px;
+}
+div
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+table, th, td
+{
+    border:double 5px #503e21;
+    border-collapse:collapse;
+    background-color:#b5bb8b;
+    padding:25px;
+    max-width: 75%;
+}
